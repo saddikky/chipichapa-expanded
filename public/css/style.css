@@ -1,0 +1,370 @@
+body {
+    height: 100%;
+    margin: 0;
+    background: #C8B8DB;
+}
+
+/* ADMIN NAVBAR */
+.adm-custom-navbar {
+    background-color:#502F4C !important; 
+    padding: 20px 0;
+}
+
+.adm-custom-navbar .navbar-brand {
+    color: #F9F4F5 !important;
+    font-size: 2.5rem; /* Increase the font size of the h1 text */
+    margin: 0; /* Reset margin */
+    padding-left: 20px; /* Add padding to the left of the h1 text */
+    padding-right: 20px; /* Add padding to the right of the h1 text */
+}
+
+.adm-custom-navbar .nav-link {
+    color: #F9F4F5 !important;
+}
+
+
+/* NAVBAR */
+
+.custom-navbar {
+    background-color: black !important; /* Custom background color */
+    padding: 20px 0;
+}
+
+.custom-navbar .navbar-brand {
+    color: #F9F4F5 !important;
+    font-size: 2.5rem; /* Increase the font size of the h1 text */
+    margin: 0; /* Reset margin */
+    padding-left: 20px; /* Add padding to the left of the h1 text */
+    padding-right: 20px; /* Add padding to the right of the h1 text */
+}
+
+.custom-navbar .nav-link {
+    color: #F9F4F5 !important;
+}
+
+/* Enlarge navbar link text size to h2 equivalent */
+.navbar-nav .nav-link {
+    font-size: 1.5rem; /* Adjusts the font size to match h2 */
+    /* font-weight: bold; Optional: Make the text bold like h2 */
+}
+
+/* Optional: Enlarge the dropdown items */
+.dropdown-menu{
+    background-color: #70587C; /* Replace with a slightly darker shade or any other color */
+    border: none; /* Optional: Remove the border */
+    
+}
+
+.dropdown-item:hover {
+    background-color: #502F4C; /* Replace with your desired color */
+    color: white; /* Change text color on hover */
+}
+
+.dropdown-menu .dropdown-item {
+    font-size: 1.2rem; /* Slightly smaller than h2 for differentiation */
+    color: #F9F4F5;
+    font-weight: 600;
+}
+
+.navbar-nav-right {
+    margin-right: 20px; /* Adjust the margin as needed */
+}
+
+.navbar-nav-right-guest {
+    margin-right: 30px;
+}
+
+.nabar-logo {
+    width: auto; /* Adjust as needed */
+    height: 75px; /* Maintain aspect ratio */
+}
+
+/* REGISTRATION */
+
+.is-invalid {
+    border-color: red;
+    background-color: #f8d7da;
+}
+
+.text-danger {
+    color: red;
+}
+
+.btn-custom-darkpurple{
+    background-color:#70587C; /* Custom background color */
+    color: #ffffff; /* Text color */
+}
+
+.btn-custom-darkpurple:hover{
+    background-color:#502F4C; /* Custom background color */
+    color: #ffffff; /* Text color */
+}
+
+/* SHOW & EDIT */
+
+
+.rounded-table {
+    border-collapse: separate; /* Ensures that the border-radius works */
+    border-spacing: 0; /* Optional: Ensures spacing doesn't affect rounding */
+    border-radius: 8px; /* Adjust the radius as needed */
+    overflow: hidden; /* Ensures the rounded corners apply to content inside */
+}
+
+/* Optional: Rounded corners for table header and footer */
+.rounded-table thead th:first-child {
+    border-top-left-radius: 8px;
+}
+
+.rounded-table thead th:last-child {
+    border-top-right-radius: 8px;
+}
+
+.rounded-table tfoot td:first-child {
+    border-bottom-left-radius: 8px;
+}
+.rounded-table tfoot td:last-child {
+    border-bottom-right-radius: 8px;
+}
+
+.table {
+    text-align: center; /* Centers horizontally */
+    vertical-align: middle; /* Centers vertically */
+}
+
+.table td .btn {
+    display: inline-block; /* Ensures buttons are treated as inline elements for alignment */
+    margin: 0 5px; /* Optional: Adds space between buttons */
+}
+
+/* BADGE */
+.custom-badge{
+    font-size: 15px; /* Increase font size */
+    padding: 10px 15px; /* Adjust padding for larger size */
+    display: inline-block;
+}
+
+.badge-success {
+    background-color: #5cb85c;
+}
+.badge-primary {
+    background-color: #0275d8;
+}
+.badge-danger {
+    background-color: #d9534f;
+}
+
+/* HOME-PAGE */
+.big-rounded-container{
+    width: 80%; /* Adjust width as needed */
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 25px; /* Set the rounded corners */
+    background-color: #F9F4F5; /* Background color for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+    text-align: center; /* Optional: center text */
+}
+
+.big-rounded-container-dark{
+    width: 80%; /* Adjust width as needed */
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 25px; /* Set the rounded corners */
+    background-color:#502F4C; /* Background color for contrast */
+    color: #F9F4F5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+    text-align: center; /* Optional: center text */
+}
+
+.big-rounded-container p{
+    font-size: large;
+}
+
+.small-rounded-container{
+    width: 50%; /* Adjust width as needed */
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 25px; /* Set the rounded corners */
+    background-color:#F9F4F5; /* Background color for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+    text-align: center; /* Optional: center text */
+}
+
+.small-rounded-container-dark{
+    width: 50%; /* Adjust width as needed */
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 25px; /* Set the rounded corners */
+    background-color:#502F4C; /* Background color for contrast */
+    color: #F9F4F5;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+    text-align: center; /* Optional: center text */
+}
+
+.mid-rounded-container{
+    width: 100%; /* Adjust width as needed */
+    max-width: 1200px; /* Set a maximum width */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding inside the container */
+    border-radius: 25px; /* Set the rounded corners */
+    background-color:#F9F4F5; /* Background color for contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: add shadow for depth */
+    text-align: center; /* Optional: center text */
+}
+
+.small-rounded-container text{
+    font-size: large;
+}
+
+.btn-home{
+    padding: 10px 20px; /* Adjust values as needed */
+    font-size: 18px; /* Adjust size as needed */
+}
+
+
+
+/* CAROUSEL ABOUT-US */
+.carousel-img {
+    height: 500px; /* Adjust the height as needed */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+}
+
+/* ACCORDION - ABOUT US */
+.accordion .accordion-item .accordion-header .accordion-button {
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #502F4C !important;
+    color: #F9F4F5 !important;
+}
+
+.accordion .accordion-item .accordion-body {
+    color: black;
+    background-color: #F9F4F5;
+    font-size: 20px;
+}
+
+/* ABOUT US CARD */
+.card {
+    border-radius: 15px; /* Adjust the radius as needed */
+    overflow: hidden; /* Ensures the content doesn't overflow the rounded corners */
+}
+
+/* GET TO KNOW US */
+.bg-custom{
+    background-color: black; /* Change this to your desired background color */
+    padding: 20px; /* Add some padding if you want space around the text */
+    border-radius: 8px; /* Optional: to round the corners */
+    color:#F9F4F5;
+    margin-bottom: 10px;
+}
+
+.bg-custom p {
+    text-align: justify; /* Justifying text */
+    font-size: 25px;
+}
+
+
+/* ABOUT US VISION & MISSION */
+.mission-vision-container {
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; Adjust gap between the two sections as needed */
+}
+
+.mission-vision-container p {
+    text-align: justify; /* Justifying text */
+    font-size: 25px;
+}
+
+.mission, .vision {
+    width: 48%; /* Adjust the width to control the size of each section */
+}
+
+/* SERVICES CARD */
+.card .card-body .card-title .card-text{
+    font-size: 20px;
+    color: #F9F4F5;
+    font-style: italic;
+}
+
+.row .col .card .card-body {
+    background-color: #502F4C;
+    color:#F9F4F5;
+}
+
+/* Footer */
+footer {
+    margin-top: auto;
+}
+footer .container{
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.user-footer{
+    background-color: black;
+    color: #F9F4F5;
+}
+
+.adm-footer{
+    background-color:#502F4C;
+    color: #F9F4F5;
+}
+
+
+/* APPOINTMENT LIST (USER) */
+.status-message {
+    position: relative;
+    display: inline-block;
+    cursor: pointer; /* Optional: show pointer cursor */
+}
+
+.status-message::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    left: 100%; /* Position the tooltip above the element */
+    top: 50%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+    padding: 5px;
+    background-color:#502F4C; /* Background color of the tooltip */
+    color:#F9F4F5; /* Text color of the tooltip */
+    border-radius: 4px;
+    font-size: 15px;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s;
+}
+
+.status-message:hover::after {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* DB CARD */
+.db-card-header{
+    background-color: #502F4C;
+    color: #F9F4F5;
+    /* padding: ; */
+}
+
+.db-card-header .card-title {
+    /* font-weight: bold; */
+    margin-left: 20px;
+    margin-top: 8px;
+    /* font-size: 25px; */
+}
+
+.card-body p{
+    font-size: 20px;
+}
+.card-body a{
+    font-size: 20px;
+}
